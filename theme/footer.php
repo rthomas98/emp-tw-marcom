@@ -18,6 +18,7 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.0/dist/cdn.min.js"></script>
 
 </body>
 </html>
