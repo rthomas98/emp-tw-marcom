@@ -143,7 +143,7 @@
 			</div>
 		</div>
 		<div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-			<p class="text-xs leading-5 text-gray-400">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+			<p class="text-xs leading-5 text-gray-400">&copy; <?php echo date("Y"); ?> Empuls3. All rights reserved.</p>
 		</div>
 	</div>
 </footer>
