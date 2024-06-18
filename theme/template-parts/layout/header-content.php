@@ -15,7 +15,7 @@
 		aria-label="Global"
 	>
 		<div class="flex lg:flex-1 items-center">
-			<a href="#" class="-m-1.5 p-1.5">
+			<a href="#" class="-m-1.5 p-1.5 flex">
 				<span class="sr-only">Empuls3</span>
 				<a href="<?php echo esc_url(home_url('/')); ?>">
 					<?php $header_logo = get_field( 'header_logo', 'option' ); ?>
@@ -23,7 +23,7 @@
 						<img class="h-8 w-auto" src="<?php echo esc_url( $header_logo['url'] ); ?>" alt="<?php echo esc_attr( $header_logo['alt'] ); ?>" />
 					<?php endif; ?>
 				</a>
-				<span class="ml-3 text-gray-300 text-em-purple font-bold invisible sm:invisible md:invisible lg:visible">Empuls3</span>
+				<span class="ml-3 text-em-purple font-bold invisible sm:invisible md:invisible lg:visible">Empuls3</span>
 			</a>
 		</div>
 		<div class="flex lg:hidden">

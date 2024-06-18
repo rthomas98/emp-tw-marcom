@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home Page Template
+ * Template Name: Software and Design Dev Page Template
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -19,7 +19,7 @@ get_header();
 			while ( have_posts() ) :
 				the_post();
 
-				get_template_part( '/template-parts/content/content', 'home' );
+				get_template_part( '/template-parts/content/content', 'sdd' );
 
 			endwhile; // End of the loop.
 			?>

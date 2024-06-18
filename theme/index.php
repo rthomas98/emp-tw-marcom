@@ -15,6 +15,7 @@
 get_header();
 ?>
 
+<h1>Insight Page</h1>
 	<section id="primary">
 		<main id="main">
 
